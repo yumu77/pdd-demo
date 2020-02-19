@@ -10,13 +10,13 @@
 # 解密
 重点关注下 **function jt()** 这个函数是在个人中心手机登录界面加载的时候进行调用。主要完成参数信息的初始化, 比如 **jt()** <br> 
 函数中调用的函数**e[h("0x115", "43d3")** 函数是用获取界面加载完毕之后的时间信息更新到变量G中,同样 **jt()** 函数中还有有调用<br> 
-`function yt(t) {
-                    l[U](t),
-                    l[h("0xca", "LYQ!")](),
-                    [lt, ht, dt, wt, pt, gt, mt, xt, _t, bt, ut, st][B](function(t) {
-                        t[U]()
-                    })
-                }`
+`function yt(t) {                              <br> 
+                    l[U](t),<br> 
+                    l[h("0xca", "LYQ!")](),<br> 
+                    [lt, ht, dt, wt, pt, gt, mt, xt, _t, bt, ut, st][B](function(t) {<br> 
+                        t[U]()<br> 
+                    })<br> 
+                }`<br> 
     这个函数主要是对参数信息的初始化，比如将网站的访问房子和端口等信息初始化到对应的变量的data中供下面Ot()函数进行调用
     
     当点击
